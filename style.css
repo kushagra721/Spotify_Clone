@@ -1,0 +1,140 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Rubik+80s+Fade&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+body{
+    background-color: rgb(12, 8, 4);
+   
+
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+overflow: hidden;
+position: fixed;
+top: 0;
+width: 100%;
+
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 60px; 
+    background-color: black;
+    color: aliceblue;
+}
+
+.brand img{
+    width: 50px;
+    padding: 0 8px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+nav ul li{
+    padding: 0 12px;
+    float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+    
+
+}
+.conatiner{
+   
+    min-height: 60vh;
+    background-color: rgb(225, 215, 204);
+   
+    
+    
+    color: rgb(230, 237, 237);
+    display: flex;
+    margin: 23px auto;
+    width: 85%;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url('bg.jpg');
+   
+}
+
+.bottom{
+    position: sticky;
+    height: 110px;
+    background-color:black;
+    bottom: 8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+#myProgressBar{
+    width: 80vw;
+    cursor: pointer;
+}
+.icons{
+    margin-top: 14px;
+    
+}
+.icons i{
+    cursor: pointer;
+    color:rgb(191, 193, 212);
+}
+.image{
+    width: 1225px;
+    height: 650px;
+}
+.songItem{
+    height: 50px;
+    display: flex;
+    background-color: azure;
+
+    color: black;
+    margin: 12px 0px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+
+
+}
+.songItem img{
+    width: 43px;
+    margin: 0px 15px;
+    border-radius: 15px;
+    
+}
+.timestamp{
+    margin: 0px 20px;
+}
+.timestamp i{
+    cursor: pointer;
+}
+.songitemcontainer{
+    margin-top: 40px;
+
+}
+.songInfo{
+    color: white;
+    position: absolute;
+    left: 10vw;
+}
+.songInfo img{
+    opacity: 0;
+    transition: opacity 1s ease-in ;
+    
+
+}
+#masterPlay{
+    margin: 12px 29px;
+}
+.m{
+    margin-top: 10px;
+}
